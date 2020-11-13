@@ -1,0 +1,15 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+ion-avatar.small {
+  zoom:0.65;
+}
+
+.table-striped ion-row:nth-child(even) {
+  background:#fafafa;
+}
+.table-striped ion-row ion-col {
+  margin:auto;
+}

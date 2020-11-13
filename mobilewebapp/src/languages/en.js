@@ -1,0 +1,68 @@
+export default {
+  "translation": {
+    "locale": "en",
+    /********************* COMMONS ********************* */
+    "button.done": "Ok",
+    "button.save": "Save",
+    "button.back": "Back",
+    "button.delete": "Delete",
+    "button.cancel": "Cancel",
+    "alert.title": "Attention!",
+    "alert.removeDescription": "The entity will be deleted. Are you sure to proceed?",
+    "alert.saved": "Saved successfully!",
+    "alert.removed": "Deleted successfully!",
+    "form.search": "Search",
+    "form.search.placeholder": "Enter what you want to search",
+    "form.searchNoResults": "Search produced no results.",
+    /********************* MENU ********************* */
+    "menu.users": "Users",
+    "menu.roles": "User Roles",
+    /********************* LOGIN ********************* */
+    "login.password": "Password",
+    "login.error": "The email or password is incorrect. Could not login.",
+    "login.registerButton": "Register",
+    "login.loginLabel": "Login",
+    "login.loginFacebook": "Login with Facebook",
+    "login.loginGoogle": "Login with Google",
+    "login.or": "or",
+    "login.requestResetPassword": "Did you forget your password?",
+    "login.errorVerifyEmail": "To log in you need to verify the email. We have sent you an email so you can verify it.",
+    /********************* REGISTER ********************* */
+    "register.repeatPassword": "Repeat Password",
+    "register.google": "Register with Google",
+    "register.facebook": "Register with Facebook",
+    "register.validation.repeatPassword": "The password are not the same.",
+    "register.completed.title": "The account has been created!",
+    "register.completed.description": "We have sent an email to activate the account.",
+    "register.emailAlreadyExists": "There is already an account registered with this email.",
+    /********************* RESET PASSWORD ********************* */
+    "resetPassword.emailSent": "We have sent you an email so you can change your password.",
+    "resetPassword.resetTitle": "Reset password",
+    "resetPassword.help": "Enter your email address that you used to register. We will send you an email with a link to reset your password.",
+    /********************* USER ********************* */
+    "user.addUser": "Add User",
+    "user.editUser": "Edit User",
+    "user.fullname": "Name",
+    "user.firstname": "Firstname",
+    "user.lastname": "Lastname",
+    "user.phone": "Phone",
+    "user.email": "Email",
+    "user.role": "Role",
+    "user.placeholder.firstname": "Enter firstname",
+    "user.placeholder.lastname": "Enter lastname",
+    "user.placeholder.phone": "Enter phone number",
+    "user.placeholder.email": "Enter email",
+    "user.placeholder.role": "Select the User Role",
+    /********************* ROLE ********************* */
+    "role.addRole": "Add User Role",
+    "role.editRole": "Edit User Role",
+    "role.name": "Name",
+    "role.placeholder.name": "Enter Role Name",
+    "role.permissions.editPatients": "Can manage patients",
+    "role.permissions.editCalendar": "Manage Shift Schedule",
+    "role.permissions.editCashFlow": "Can manage Cash Flow",
+    "role.permissions.editConfig": "Access to Configuration",
+    "role.permissions.editUsers": "Can manage Users",
+    "role.permissions.viewReports": "Can view Reports"
+  }
+}

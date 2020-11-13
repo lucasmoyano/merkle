@@ -1,0 +1,6 @@
+.rover, .obstacle {
+  max-width: 50px;
+  max-height: 50px;
+  position:absolute;
+  z-index: 2;
+}

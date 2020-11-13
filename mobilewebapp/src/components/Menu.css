@@ -1,0 +1,4 @@
+.split-pane-visible ion-menu {
+  max-width: 280px !important;
+  border-right:none !important;
+}

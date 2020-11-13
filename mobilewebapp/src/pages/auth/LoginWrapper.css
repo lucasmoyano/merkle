@@ -1,0 +1,49 @@
+.auth-page {
+  /* --background:#007E7A; */
+  text-align:center;
+  --background: url(./images/background.jpg);
+}
+
+.auth-page ion-card {
+  max-width: 90%;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.auth-page .logo {
+  margin: 20px 0;
+}
+
+.btn-facebook {
+  --background: #4267b2;
+  --background-hover: #678bd5;
+  width: 100%;
+}
+
+.btn-google {
+  --background: #DD4B39;
+  --background-hover: #ef7e70;
+  width: 100%;
+}
+
+.auth-page .or {
+  display:block;
+  font-weight: bold;
+  position: absolute;
+  width: 95%;
+  z-index: 1;
+}
+
+.auth-page .login-buttons {
+  margin-top: 5px;
+}
+
+.auth-page .login-buttons ion-button {
+  width:48%;
+}
+.auth-page .login-buttons a {
+  line-height: 30px;
+}
